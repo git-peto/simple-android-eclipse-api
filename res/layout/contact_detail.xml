@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <Button 
+        android:id="@+id/btnback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        />
+	<TextView 
+	    android:id="@+id/tvname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/btnback"
+	    />
+	
+	<TextView 
+	    android:id="@+id/tvaddress"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tvname"
+	    />
+	
+	<TextView 
+	    android:id="@+id/tvemail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tvaddress"
+	    />
+	
+	<TextView 
+	    android:id="@+id/tvphone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tvemail"
+	    />
+</RelativeLayout>

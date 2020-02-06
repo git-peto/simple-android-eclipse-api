@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView
+	    android:id="@+id/tv1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Ke:" 
+	    />
+	
+	<Spinner 
+	    android:id="@+id/spcontact"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tv1"
+	    />
+	
+	<TextView 
+	    android:id="@+id/tv2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/spcontact"
+	    android:text="Pesan:"
+	    />
+	
+	<EditText 
+	    android:id="@+id/etpesan"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tv2"
+	    android:hint="Tulis pesan disini"
+	    />
+	
+	<Button 
+	    android:id="@+id/btnkirim"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/etpesan"
+	    android:text="KIRIM"
+	    />
+</RelativeLayout>

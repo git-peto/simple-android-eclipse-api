@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/inbox_tvfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tost"
+        android:textSize="16sp" />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <TextView 
+            android:id="@+id/inbox_tvcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTENT"
+            android:gravity="left"/>
+        
+        <TextView 
+	        android:id="@+id/inbox_tvcreatedat"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="test"
+	        android:gravity="right"
+	        android:layout_toRightOf="@+id/inbox_tvcontent"
+	        android:layout_alignBaseline="@+id/inbox_tvcontent" />
+    </RelativeLayout>
+    
+</LinearLayout>
